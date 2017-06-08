@@ -4,6 +4,7 @@ import Menu from 'material-ui/Menu';
 import MenuItem from 'material-ui/MenuItem';
 import Overview from './overview';
 import Insurance from './insurance';
+import StockOptions from './stockOptions';
 import WealthAllocation from './wealthAllocation';
 import './compendiumTab.css';
 
@@ -50,7 +51,7 @@ class CompendiumTab extends Component {
             case 'wealth_allocation':
                 return <WealthAllocation />;
             case 'stock_options':
-                return <span>Stock Options</span>;
+                return <StockOptions />;
         }
     }
 

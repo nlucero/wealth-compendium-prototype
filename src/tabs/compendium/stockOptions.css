@@ -1,0 +1,3 @@
+.no-wrap-header th {
+    white-space: normal !important;
+}
